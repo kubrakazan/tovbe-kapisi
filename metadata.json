@@ -1,0 +1,6 @@
+{
+  "name": "Tövbe Kapısı",
+  "description": "Temel Dinî Bilgiler dersi Tövbe ve İstiğfar temalı eğitici kilit açma ve senaryo oyunu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

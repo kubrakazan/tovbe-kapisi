@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-amiri {
+  font-family: 'Amiri', serif;
+}
+
+/* Bright, fresh spiritual geometric background pattern */
+.bg-islamic-pattern {
+  background-color: #f8fafc;
+  background-image: 
+    radial-gradient(rgba(16, 185, 129, 0.12) 1.5px, transparent 0), 
+    radial-gradient(rgba(245, 158, 11, 0.12) 1.5px, #f8fafc 1.5px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+.gold-glow {
+  box-shadow: 0 10px 30px -5px rgba(245, 158, 11, 0.25), 0 0 15px rgba(217, 119, 6, 0.15);
+}
+
+.emerald-glow {
+  box-shadow: 0 10px 30px -5px rgba(16, 185, 129, 0.25), 0 0 15px rgba(5, 150, 105, 0.15);
+}
+
+@keyframes pulseSlow {
+  0%, 100% { opacity: 0.9; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.02); }
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 3s ease-in-out infinite;
+}
+
+@keyframes floatGentle {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-float {
+  animation: floatGentle 4s ease-in-out infinite;
+}
+
